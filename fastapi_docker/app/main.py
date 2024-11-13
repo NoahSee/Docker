@@ -17,6 +17,7 @@ app = FastAPI(
         "name": "MIT",
         "url": "https://opensource.org/licenses/MIT",
     },
+    servers=[{"url": "http://localhost:8000"}],
 )
 
 
